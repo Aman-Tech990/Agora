@@ -3,7 +3,7 @@ import { Button } from '../ui/button';
 import Link from 'next/link';
 import ProductCard from '../products/ProductCard';
 
-const featuresProductItems = [
+const featureProductItem = [
     {
         id: 1,
         name: "ParityKit",
@@ -50,7 +50,7 @@ const SectionHeader = (
                 </Button>
             </div>
             <div className='grid-wrapper mt-10'>
-                {featuresProductItems.map((product) =>
+                {featureProductItem.map((product) =>
                     <ProductCard key={product.id} product={product} />
                 )}
             </div>
