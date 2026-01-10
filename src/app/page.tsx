@@ -1,3 +1,4 @@
+import FeaturedProducts from "@/components/landingpage/FeaturedProducts";
 import HeroSection from "@/components/landingpage/HeroSection";
 import Image from "next/image";
 
@@ -5,6 +6,7 @@ export default function Home() {
   return (
     <div>
       <HeroSection />
+      <FeaturedProducts />
     </div>
   );
 }
