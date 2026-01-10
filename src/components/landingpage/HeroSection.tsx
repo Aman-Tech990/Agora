@@ -59,7 +59,7 @@ const HeroSection = () => {
                             </Link>
                         </Button>
                         <Button asChild size="lg" className="text-base px-8 shadow-lg rounded-xl" variant="secondary">
-                            <Link href="/submit">
+                            <Link href="/explore">
                                 Explore Projects
                                 <ArrowRightIcon className="size-5" />
                             </Link>
