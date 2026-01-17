@@ -20,7 +20,9 @@ export default function RootLayout({
         className={`${outfit.className} antialiased`}
       >
         <div className="container max-w-7xl mx-auto p-10">
+          <header>Agora</header>
           {children}
+          <footer>Agora Inc. All rights reserved.</footer>
         </div>
       </body>
     </html>

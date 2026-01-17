@@ -1,5 +1,6 @@
 import FeaturedProducts from "@/components/landingpage/FeaturedProducts";
 import HeroSection from "@/components/landingpage/HeroSection";
+import RecentlyLauncedProduct from "@/components/landingpage/RecentlyLauncedProduct";
 import Image from "next/image";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
       <HeroSection />
       <FeaturedProducts />
+      <RecentlyLauncedProduct/>
     </div>
   );
 }
